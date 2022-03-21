@@ -20,7 +20,7 @@ body{
 
 
 
-/*----------Styles to the Headers-------------*/
+/*----------------------Styles to the Headers-------------*/
 
 header {
     padding: 20px 35px;
@@ -99,26 +99,16 @@ section{
 }
 
 
+
+
+
+
+
+
+
+
+
 /*-----------------Hero Style-----------------*/
-
-
-/* homepage hero */
-.hero {
-    margin: 20px;
-    background-color: white;
-    font-size: 20px;
-    color: blue;
-}
-  
-  /* secondary page hero */
-.hero-secondary {
-    margin: 20px;
-    background-color: black;
-    font-size: 20px;
-    color: red;
-}
-
-
 
 .hero {
     background-image: url("../images/hero-bg.jpg");
@@ -128,15 +118,16 @@ section{
     background-position: center;
 
     margin: 20px;
-    font-size: 20px;
     background-color: white;
+    font-size: 20px;
     color: blue;
 
 }
 
-
 .hero-secondary {
+    margin: 20px;
     background-color: black;
+    font-size: 20px;
     color: red;
 }
 
@@ -192,11 +183,6 @@ section{
 
 }
 
-
-
-
-
-
 .intro{
 
     text-align: center;
@@ -213,7 +199,7 @@ section{
 
 
 
-/*---------Steps desing-----------**/
+/*--------------------------Steps desing------------------------**/
 
 .steps{
 
@@ -241,8 +227,6 @@ section{
     font-size: 38px;
 }
 
-
-
 .section-title{
 
     font-size: 55px;
@@ -262,7 +246,8 @@ section{
     border-color: #39a6b2
 }
 
-/*-------------Trainers Bio-------------*/
+/*------------------------------Trainers Bio---------------------------------*/
+
 
 
 .trainers{
@@ -290,7 +275,6 @@ section{
     width: 65%;
 }
 
-
 .text-left{
     text-align: left;
 }
@@ -312,60 +296,59 @@ section{
 .trainer-bio p{
     font-size: 17px;
     line-height:1.3;
+
+
 }
 
 
+/*--------------------------Reach Out Information----------------------------------*/
 
 
-.section-title{
-    font-size: 55px;
-    display: inline-block;
-    padding: 0 100px 20px 100px;
-    border-bottom: 3px solid;
-    margin-bottom: 35px;
-    color:#024e75;
-}
-
-
-
-.contact{
+.contact {
     text-align: center;
     background: #024e76;
 }
+
 .contact h2{
-    color: #fce138;
-}
-.contact-info iframe{
-    width: 400px;
-    height:400px;
+    color: #fce138
 }
 
-.contact-info div {
+.contact iframe{
+    width: 400px;
+    height: 400px;    
+    
+}
+
+
+.contact-info{
+
     width: 410px;
     display: inline-block;
     vertical-align: top;
     text-align: left;
+    
+
     margin: 30px 0 0 60px;
     color: white;
+    
+   
 }
-.contact-info h3 {
+
+
+
+.contact-info h3{
     color: #fce138;
     font-size: 32px;
+
 }
-  
-.contact-info p, .contact-info address {
+.contact-info p, .contact-info address{
     margin: 20px 0;
     line-height: 1.5;
     font-size: 20px;
     font-style: normal;
+
 }
-  
-.contact-info a {
+.contact-info a{
     color: #fce138;
 }
-
-
-
-
-
 
