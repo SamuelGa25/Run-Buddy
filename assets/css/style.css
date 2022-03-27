@@ -56,16 +56,21 @@ header nav{
 
 }
 
+header nav ul {
 
-header nav ul li{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
 
-    display: inline;
 }
+
 
 header nav ul li a{
     margin: 0 30px;
     font-weight: lighter;
-    font-size: 22px;
+    font-size: 1.55vw;
 
 }
 
